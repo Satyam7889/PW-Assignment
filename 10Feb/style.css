@@ -1,0 +1,159 @@
+*{
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+   
+}
+body{
+    background-color: black;
+    color: white;
+}
+@media screen and (min-width:425px) {
+        .ham{
+            display: none;
+        }
+
+        ul{
+            display: flex;
+            justify-content: end;
+            gap: 40px;
+            font-size: 25px;
+            list-style: none;
+        }
+        li:hover{
+            cursor: pointer;
+            background-color: #5955b3 ;
+            border: 1px;
+            padding: 2px;
+            border-radius: 10%;
+        }
+        .upper{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .upperleft{
+            align-self: center;
+        }
+        .logo{
+            display: flex;
+            gap: 10px;
+        }
+        .logo h3{
+            align-self: center;
+        }
+        .name{
+                font-size: 20px;
+                font-weight: 700;
+            
+        }
+        .position{
+            font-size: 20px;
+            font-weight: 400;
+            color:#99b524;
+        }
+        .pc{
+            height: 200px;
+            width: 300px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: 5px underline blue;
+            
+        }
+        .middle{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .pic1,.pic2,.pic3,.pic4{
+            height: 170px;
+        }
+        .img1,.img2,.img3,.img4{
+            cursor: pointer;
+        
+        }
+        .lower{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .links{
+            display: flex;
+            justify-content: center;
+            height: px;
+            
+        }
+        h6{
+            text-align: center;
+            
+        }
+    
+}
+@media screen and (max-width:425px) and (min-width:0px){
+      
+    ul{
+    display: none;
+   }
+   .logo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width:30%;
+   
+   }
+   .wh{
+    height: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+   }
+   .intro{
+    display: flex;
+    justify-content: center;
+   }
+   .name{
+    font-size: 20px;
+    font-weight: 700;
+
+}
+.position{
+font-size: 20px;
+font-weight: 400;
+color:#99b524;
+}
+   .upperright{
+    display: flex;
+    justify-content: center;
+   }
+   h1{
+    text-align: center;
+    text-decoration: 5px underline blue;
+   }
+   .middle{
+    margin: auto;
+    width: 50%;
+   }
+   .lower{
+    margin: auto;
+    width: 50%;
+   }
+   h6{
+    text-align: center;
+   }
+   .pic1,.pic2,.pic3,.pic4{
+    display: block;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.img1,.img2,.img3,.img4{
+    cursor: pointer;
+}
+ .links{
+    display: flex;
+    justify-content: center;
+ }   
+}
