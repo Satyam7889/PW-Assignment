@@ -1,0 +1,26 @@
+*{
+    margin: 5px;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overall{
+    border: solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.rest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    font-size: 20px;
+}

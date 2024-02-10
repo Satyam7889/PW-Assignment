@@ -1,0 +1,16 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#abc{
+    padding: 20px;
+    border-radius: 10px;
+}
+#xyz{
+    padding: 20px;
+}
+
+
+
