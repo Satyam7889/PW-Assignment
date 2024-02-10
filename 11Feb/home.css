@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    /* background-color:#f0f4f5; */
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    background-image: url(./homeassests/stethoscope.png);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position-x: 360px;
+    background-position-y: 160px;
+}
+header{
+    display: flex;
+    gap: 300px;
+}
+header img{
+    margin: 30px 150px;
+}
+header ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:bolder;
+    color: black;
+}
+.main{
+    display: flex;
+  
+    margin-left: 120px;
+}
+.left{
+    margin-top: 120px;
+    margin-right: 00px;
+    width: 900px;
+    position: relative;
+}
+
+.left h1{
+    width: 700px;
+    font-size:80px;
+    margin-bottom: 20px;
+}
+.left p{
+    width: 600px;
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.topangle{
+    position: absolute;
+    top: -30px;
+    left: 5px;
+   
+}
+.bottomangle{
+    position: absolute;
+    top: 350px;
+    right: 180px;
+    
+}
+.left button{
+    background-color: #22bc7e;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.mouse{
+    position: absolute;
+    top: 380px;
+    right: 120px;
+    height: 30px;
+}
+.right  {
+    position: relative;
+}
+.yellow{
+    padding-top: 260px;
+    padding-left: 220px;
+    padding-right: 0px;
+    margin-right: 0px;
+    height: 400px;
+   
+}
+.green {
+    height: 500px;
+    position: absolute;
+    top: 168px;
+    left: 108px;
+}
+
+.doctor{
+    position: absolute;
+    height: 750px;
+   top: -40px;
+   right: 0px;
+}
+

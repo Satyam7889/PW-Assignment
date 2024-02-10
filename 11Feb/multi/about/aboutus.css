@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    background-color: #f0f4f5;
+}
+header{
+    display: flex;
+    gap: 300px;
+}
+header img{
+    margin: 30px 150px;
+}
+header ul{
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight:bolder;
+    color: black;
+}
+main{
+  text-align: center;
+margin-top: 200px;
+}
+main h1{
+    color: #22bc7e;
+    text-align: center;
+    
+}
+main p{
+width: 640px;
+text-align: center;
+margin: auto;
+margin-top: 30px;
+margin-bottom: 50px;
+font-size: 20px;
+font-weight: 500;
+
+}
+.figures{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.doctors,.patients,.students{
+    border: solid ;
+    padding: 10px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+.doctors h4,.patients h4,.students h4{
+    font-size: 20px;
+}   
