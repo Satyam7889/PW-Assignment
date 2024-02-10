@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.largescreen,.laptop,.tablet,.mobile{
+    text-align: center;
+    display: none;
+    font-size: 25px;
+    font-weight: 900;
+}
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    body{
+        background-color: forestgreen;
+    }
+    .largescreen{
+        display: block;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px)  {
+    body{
+        background-color:  darkgoldenrod;
+    }
+    .laptop{
+        display: block;
+       
+    }
+    
+}
+@media screen and (min-width:425px) and (max-width:768px)  {
+    body{
+        background-color:  aqua;
+    }
+    .tablet{
+        display: block;
+       
+    }
+    
+}
+@media screen and (min-width:0px) and (max-width:425px)  {
+    body{
+        background-color:red ;
+    }
+    .mobile{
+        display: block;
+       
+    }
+    
+}
